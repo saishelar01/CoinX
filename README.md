@@ -54,4 +54,4 @@ CoinX is a web-based platform for buying, selling, and managing rare coins. It f
 - **uploads/**: User-uploaded files (e.g., coin images).
 - **.vscode/**: Editor settings for development.
 
-**Contact:** rarecointreasures@gmail.com
+**Contact:** saishelar59@gmail.com
