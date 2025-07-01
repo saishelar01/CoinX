@@ -1,0 +1,360 @@
+/* Order Confirmation Page Styles */
+.confirmation-section {
+    padding: 60px 0;
+    background-color: #f8f8f8;
+}
+
+.confirmation-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.confirmation-header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.confirmation-icon {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.confirmation-icon i {
+    color: white;
+}
+
+.confirmation-header h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.confirmation-header p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.order-details,
+.shipping-details,
+.next-steps {
+    padding: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.order-details h3,
+.shipping-details h3 {
+    font-size: 22px;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.order-info {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.order-info-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.order-info-item:last-child {
+    margin-bottom: 0;
+}
+
+.order-info-item span:first-child {
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.order-items {
+    margin-bottom: 30px;
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.order-item:last-child {
+    border-bottom: none;
+}
+
+.order-item-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.order-item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.order-item-details h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: var(--secondary-color);
+}
+
+.order-item-price {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.order-item-quantity {
+    font-size: 14px;
+    color: var(--gray-color);
+}
+
+.order-summary {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.summary-item.total {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--secondary-color);
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.shipping-address {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.shipping-address p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.next-steps {
+    text-align: center;
+    padding: 40px 30px;
+    border-bottom: none;
+}
+
+.next-steps p {
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: var(--gray-color);
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.action-buttons .btn {
+    min-width: 180px;
+    padding: 12px 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .confirmation-header {
+        padding: 30px 15px;
+    }
+    
+    .confirmation-icon {
+        font-size: 50px;
+    }
+    
+    .confirmation-header h2 {
+        font-size: 24px;
+    }
+    
+    .order-details, 
+    .shipping-details,
+    .next-steps {
+        padding: 20px;
+    }
+    
+    .order-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .order-item-image {
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    
+    .action-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .action-buttons .btn {
+        width: 100%;
+    }
+} 
+
+/* Review Section Styles */
+.review-section {
+    padding: 0 0 20px;
+}
+
+.review-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 900px;
+    margin: 0 auto 20px;
+    padding: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.review-container h3 {
+    font-size: 22px;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+}
+
+.review-container p {
+    margin-bottom: 20px;
+    color: var(--gray-color);
+}
+
+.rating-container {
+    margin-bottom: 20px;
+}
+
+.rating-container h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.star-rating {
+    display: flex;
+    font-size: 24px;
+    color: #ffc107;
+    margin-bottom: 20px;
+}
+
+.star-rating i {
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.star-rating i:hover,
+.star-rating i.fas {
+    transform: scale(1.1);
+}
+
+.review-form .form-group {
+    margin-bottom: 20px;
+}
+
+.review-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.review-form input[type="text"],
+.review-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.review-form input[type="text"]:focus,
+.review-form textarea:focus {
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 8px;
+}
+
+#submitReviewBtn {
+    min-width: 150px;
+}
+
+/* Responsive adjustments for review section */
+@media (max-width: 768px) {
+    .review-container {
+        padding: 20px;
+    }
+    
+    .star-rating {
+        font-size: 20px;
+    }
+    
+    .radio-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+} 
+
+/* Review Success Styles */
+.review-success {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.review-success .confirmation-icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+
+.review-success h3 {
+    font-size: 24px;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+}
+
+.review-success p {
+    font-size: 16px;
+    color: var(--gray-color);
+} 
